@@ -22,8 +22,11 @@ console.log(obj3.__proto__.a); // 3。 在原型链上赋值属性内容。
 
 ```
 
+## 思考
+  * 在非必要的情况下，是否只需要用字面量方式生成对象。 
+
 ## 参考
-* <a href="https://blog.csdn.net/qq_39207948/article/details/81204411">Object.create()和new object()和{}的区别</a>
+  * <a href="https://blog.csdn.net/qq_39207948/article/details/81204411">Object.create()和new object()和{}的区别</a>
 
 
 # obj.a = 3 、 Object.defineProperty 的区别
